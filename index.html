@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vocabulary Teacher Competencies (VTC) Framework</title>
+  <style>
+    body { 
+      font-family: 'Segoe UI', sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      background-color: #f9f9f9; 
+      color: #333; 
+    }
+    header { 
+      background-color: #002147; 
+      color: #fff; 
+      padding: 20px; 
+      text-align: center; 
+    }
+    main { 
+      max-width: 1000px; 
+      margin: auto; 
+      padding: 30px; 
+    }
+    h2 { 
+      color: #002147; 
+      border-bottom: 2px solid #ccc; 
+      padding-bottom: 5px; 
+    }
+    .intro { 
+      background: #eef4fc; 
+      padding: 20px; 
+      margin-bottom: 20px; 
+      border-left: 5px solid #005a9c; 
+    }
+    .domain-buttons { 
+      text-align: center; 
+      margin-bottom: 30px; 
+    }
+    .domain-buttons button { 
+      margin: 0 10px; 
+      padding: 10px 20px; 
+      font-size: 16px; 
+      cursor: pointer; 
+    }
+    .domain { 
+      display: none; 
+      margin-bottom: 40px; 
+    }
+    .accordion { 
+      margin: 10px 0; 
+      background: white; 
+      border-left: 5px solid #005a9c; 
+      box-shadow: 0 0 4px rgba(0,0,0,0.1); 
+    }
+    .accordion-header { 
+      padding: 15px; 
+      background: #eef4fc; 
+      font-weight: bold; 
+      cursor: pointer; 
+    }
+    .accordion-content { 
+      padding: 15px; 
+      display: none; 
+      border-top: 1px solid #ccc; 
+    }
+    ul { 
+      margin-left: 20px; 
+    }
+    a { 
+      color: #005a9c; 
+    }
+    /* Helpful Publications 样式 */
+    .helpful-publications {
+      margin: 10px 0;
+      background: #fff8e1;
+      border: 2px dashed #ffa000;
+      box-shadow: 0 0 4px rgba(0,0,0,0.1);
+    }
+    .helpful-publications .accordion-header {
+      padding: 15px;
+      background: #ffe082;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .helpful-publications .accordion-content {
+      padding: 15px;
+      display: none;
+      border-top: 1px dashed #ffa000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vocabulary Teacher Competencies (VTC) Framework Website</h1>
+  </header>
+  <main>
+    <!-- 引导语部分 -->
+    <section class="intro">
+      <h2>Welcome to the Vocabulary Teacher Competencies (VTC) Framework Website</h2>
+      <p>
+        This website introduces and supports the Vocabulary Teacher’s Competencies (VTC) Framework—a research-informed model designed to guide language and literacy teachers in delivering effective vocabulary instruction. While vocabulary is essential for students’ language development and academic success, many educators report feeling underprepared to teach it confidently. The VTC Framework addresses this gap by synthesizing the latest research into a clear structure of core knowledge, technical skills, and professional capabilities.
+      </p>
+      <p>
+        Our platform provides access to the framework, its conceptual foundations, and practical applications in teacher education and professional development. Whether you're a teacher educator, researcher, or classroom teacher, you’ll find tools and insights here to support vocabulary teaching across diverse contexts. We aim to foster deeper integration of vocabulary pedagogy into curriculum planning, teacher training, and cross-disciplinary instruction, ultimately contributing to improved literacy outcomes for all learners.
+      </p>
+    </section>
+    
+    <!-- Domain 按钮 -->
+    <section class="domain-buttons">
+      <button onclick="toggleDomain('domain1')">Domain 1</button>
+      <button onclick="toggleDomain('domain2')">Domain 2</button>
+      <button onclick="toggleDomain('domain3')">Domain 3</button>
+    </section>
+    
+    <!-- Domain 1 -->
+    <section id="domain1" class="domain">
+      <h2>Domain 1: Knowledge of Vocabulary Research and Resources</h2>
+      <div class="accordion">
+        <div class="accordion-header">1. Understands the statistical nature of language</div>
+        <div class="accordion-content">
+          <p>e.g., frequency, grapheme-phoneme correspondences, context, language experience etc. inform vocabulary teaching</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">2. Understands the structures of vocabulary</div>
+        <div class="accordion-content">
+          <p>e.g., morphology, phonology, spelling etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">3. Understands the characteristics of different types of vocabulary</div>
+        <div class="accordion-content">
+          <p>e.g., academic, technical, colloquial, tiered vocabulary etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">4. Understands how to source and critically evaluate resources for vocabulary instruction</div>
+        <div class="accordion-content">
+          <p>e.g., vocabulary lists, texts, textbooks, AI tools etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">5. Understands vocabulary’s role within language and literacy development</div>
+        <div class="accordion-content">
+          <p>e.g., its role in comprehension, interaction</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">6. Understands current theories of how vocabulary is learned and links this knowledge to vocabulary teaching</div>
+        <div class="accordion-content">
+          <p>e.g., first and second language acquisition</p>
+        </div>
+      </div>
+      <div class="helpful-publications">
+        <div class="accordion-header">Helpful Publications & Resources</div>
+        <div class="accordion-content">
+          <strong>Publications:</strong>
+          <ul>
+            <li>Coxhead, A. (2018). Vocabulary and English for Specific Purposes Research.</li>
+            <li>Hiebert, E. Teaching Words and How They Work.</li>
+            <li>Bauer, L., & Nation, I. S. P. English Morphology for the Language Teaching Profession.</li>
+            <li>Biemiller, A. Words Worth Teaching.</li>
+            <li>Marzano, R. J. Teaching Basic, Advanced, and Academic Vocabulary.</li>
+            <li>Coxhead, A. Teaching Vocabulary.</li>
+            <li>Graves, M. The Vocabulary Book.</li>
+            <li>Beck, I. L., et al. Robust Vocabulary Instruction.</li>
+            <li>Kame’enui, E. J., & Baumann, J. F. Vocabulary Instruction: Research to Practice.</li>
+          </ul>
+          <strong>Resources:</strong>
+          <ul>
+            <li><a href="https://www.wgtn.ac.nz/lals/resources/academicwordlist" target="_blank">The Academic Word List</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Domain 2 -->
+    <section id="domain2" class="domain">
+      <h2>Domain 2: Technical Skills in Vocabulary Analysis</h2>
+      <div class="accordion">
+        <div class="accordion-header">1. Can identify accurately the morphological, orthographic, semantic and phonological structures for words</div>
+        <div class="accordion-content">
+          <p>e.g., transcribe phonemes, identify stress, part of speech, morphemes etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">2. Can identify instructional words in text effectively</div>
+        <div class="accordion-content">
+          <p>e.g., considers frequency, tiers, student needs, role in instructional text etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">3. Can identify and teach the different elements of knowing a word and technical correspondences</div>
+        <div class="accordion-content">
+          <p>e.g., phonics, how spelling, sound, and meaning can interrelate etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">4. Can identify typical and atypical vocabulary development</div>
+        <div class="accordion-content">
+          <p>e.g., potential cases of dyslexia, DLD etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">5. Can identify the vocabulary demands of texts</div>
+        <div class="accordion-content">
+          <p>e.g., text complexity etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">6. Can identify and teach the relationships between words</div>
+        <div class="accordion-content">
+          <p>e.g., morphological and semantic word families, synonyms etc.</p>
+        </div>
+      </div>
+      <div class="helpful-publications">
+        <div class="accordion-header">Helpful Publications & Resources</div>
+        <div class="accordion-content">
+          <strong>Publications:</strong>
+          <ul>
+            <li>Hennessy, N., & Moats, L. The Reading Comprehension Blueprint.</li>
+            <li>Biemiller, A. (2010). Words Worth Teaching. McGraw-Hill.</li>
+            <li>Wyse, D., & Hacking, C. The Balancing Act.</li>
+            <li>Moats, L. Basic Facts About Dyslexia & Other Reading Problems.</li>
+          </ul>
+          <strong>Resources:</strong>
+          <ul>
+            <li><a href="https://irrc.education.uiowa.edu/resources" target="_blank">Iowa Resource Centre</a></li>
+            <li><a href="https://rootedinlanguage.com/blogs/rootedreport/possum" target="_blank">Possum Framework</a></li>
+            <li><a href="https://textproject.org/" target="_blank">Text Project by Hiebert</a></li>
+            <li><a href="https://www.thewritingrevolution.org/" target="_blank">The Writing Revolution</a></li>
+            <li><a href="https://www.wordworkskingston.com/WordWorks/Structured_Word_Inquiry.html" target="_blank">Structured Word Inquiry</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Domain 3 -->
+    <section id="domain3" class="domain">
+      <h2>Domain 3: Professional and Socio-cultural Capabilities</h2>
+      <div class="accordion">
+        <div class="accordion-header">1. Develops a structured approach to vocabulary instruction</div>
+        <div class="accordion-content">
+          <p>e.g., a systematic long-term curriculum etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">2. Develops teaching practice over time through engaging with new vocabulary research and instructional strategies</div>
+        <div class="accordion-content">
+          <p>e.g., professional development courses, new technology</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">3. Develops student interest in vocabulary, assesses their progress and provides feedback</div>
+        <div class="accordion-content">
+          <p>(to be added)</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">4. Develops collaborative partnerships with colleagues to integrate vocabulary instruction within rich cross-curricular content</div>
+        <div class="accordion-content">
+          <p>e.g., content area vocabulary</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">5. Develops differentiated vocabulary instruction</div>
+        <div class="accordion-content">
+          <p>e.g., for multilingual students, special educational needs students etc.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">6. Develops equity through inclusive vocabulary instruction</div>
+        <div class="accordion-content">
+          <p>e.g., leverages background knowledge, culturally responsive teaching etc.</p>
+        </div>
+      </div>
+      <div class="helpful-publications">
+        <div class="accordion-header">Helpful Publications & Resources</div>
+        <div class="accordion-content">
+          <strong>Publications:</strong>
+          <p>(To be added)</p>
+          <strong>Resources:</strong>
+          <ul>
+            <li><a href="https://educationendowmentfoundation.org.uk/reading-house/vocabulary" target="_blank">EEF: Education Endowment Foundation</a></li>
+            <li><a href="https://dyslexiaida.org/" target="_blank">IDA: International Dyslexia Association</a></li>
+            <li>Science of Reading Podcast</li>
+            <li>Talks by scholars (e.g., YouTube lectures, expert interviews)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <script>
+    // 切换 Domain 展开/收起状态
+    function toggleDomain(domainId) {
+      var domainSection = document.getElementById(domainId);
+      if (domainSection.style.display === "block") {
+        domainSection.style.display = "none";
+      } else {
+        domainSection.style.display = "block";
+      }
+    }
+    
+    // 内部 accordion 展开/收起功能
+    var accordionHeaders = document.querySelectorAll('.accordion-header');
+    accordionHeaders.forEach(function(header) {
+      header.addEventListener('click', function() {
+        var content = this.nextElementSibling;
+        content.style.display = (content.style.display === "block") ? "none" : "block";
+      });
+    });
+  </script>
+</body>
+</html>
